@@ -12,8 +12,8 @@ import (
 	"time"
 
 	hu "github.com/dustin/go-humanize"
-	ui "github.com/gizak/termui"
 	"github.com/k-sone/snmpgo"
+	ui "github.com/uber-common/termui"
 )
 
 type ifStats struct {
